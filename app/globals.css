@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ─── Design tokens ───────────────────────────────────────────────────────────
+   Palette inspired by Fonthill Abbey: aged parchment, deep oxblood, gilt, ink.
+   Adjust here once — everything downstream reads from these tokens.
+────────────────────────────────────────────────────────────────────────────── */
+@theme {
+  --color-parchment: #f4efe6;
+  --color-parchment-dim: #e8e0d2;
+  --color-ink: #1a1612;
+  --color-ink-soft: #3b342b;
+  --color-oxblood: #5c1a1b;
+  --color-oxblood-dark: #3f1112;
+  --color-gilt: #9b7a3a;
+  --color-gilt-soft: #c6a865;
+  --color-fog: #b8ad97;
+
+  --font-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius-sm: 0.125rem;
+  --radius: 0.25rem;
+  --radius-lg: 0.5rem;
+}
+
+/* ─── Base ─────────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-parchment);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-feature-settings: "liga", "kern";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    color: var(--color-ink);
+  }
+  a {
+    color: var(--color-oxblood);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  a:hover {
+    color: var(--color-oxblood-dark);
+  }
+  ::selection {
+    background: var(--color-oxblood);
+    color: var(--color-parchment);
+  }
+}
+
+/* ─── Re-usable component classes ─────────────────────────────────────────── */
+@layer components {
+  .container-prose {
+    max-width: 42rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+  .container-wide {
+    max-width: 78rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+  .rule-gilt {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--color-gilt) 20%,
+      var(--color-gilt) 80%,
+      transparent
+    );
+  }
+  .heading-display {
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+  }
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-gilt);
+    font-weight: 600;
+  }
+}
