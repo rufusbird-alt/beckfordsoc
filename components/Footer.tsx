@@ -33,8 +33,8 @@ export default function Footer() {
               <Image
                 src="/images/beckfordsociety-logo-122x113.png"
                 alt="The Beckford Society"
-                width={36}
-                height={33}
+                width={56}
+                height={52}
                 className="opacity-90"
               />
               <p className="font-[family-name:var(--font-display)] text-lg text-parchment font-medium">

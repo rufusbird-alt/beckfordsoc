@@ -27,8 +27,8 @@ export default function Header() {
           <Image
             src="/images/beckfordsociety-logo-122x113.png"
             alt="The Beckford Society"
-            width={40}
-            height={37}
+            width={64}
+            height={59}
             className="shrink-0"
           />
           <span className="font-[family-name:var(--font-display)] text-xl font-medium tracking-wide text-parchment">
