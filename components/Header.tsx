@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const nav = [
@@ -21,9 +22,18 @@ export default function Header() {
       <div className="container-wide flex items-center justify-between py-4">
         <Link
           href="/"
-          className="font-[family-name:var(--font-display)] text-xl font-medium tracking-wide text-parchment no-underline hover:text-gilt-soft"
+          className="flex items-center gap-3 no-underline hover:opacity-90 transition-opacity"
         >
-          The Beckford Society
+          <Image
+            src="/images/beckfordsociety-logo-122x113.png"
+            alt="The Beckford Society"
+            width={40}
+            height={37}
+            className="shrink-0"
+          />
+          <span className="font-[family-name:var(--font-display)] text-xl font-medium tracking-wide text-parchment">
+            The Beckford Society
+          </span>
         </Link>
 
         {/* Desktop nav */}

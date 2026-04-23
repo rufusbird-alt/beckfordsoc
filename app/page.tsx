@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import HeroCarousel from "@/components/HeroCarousel";
 
 const sections = [
   {
@@ -66,22 +66,8 @@ export default function Home() {
       {/* Hero portrait */}
       <section className="bg-ink">
         <div className="container-wide py-12 md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-16">
-          {/* Portrait */}
-          <div className="relative w-64 md:w-80 lg:w-96 shrink-0">
-            <div className="relative aspect-[3/4]">
-              <Image
-                src="/images/gallery/website8.jpg"
-                alt="William Beckford, c.1795"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 256px, (max-width: 1024px) 320px, 384px"
-                priority
-              />
-            </div>
-            <p className="text-fog/60 text-xs italic mt-2 text-center">
-              William Beckford, c.1795
-            </p>
-          </div>
+          {/* Portrait carousel */}
+          <HeroCarousel />
 
           {/* Title */}
           <div>

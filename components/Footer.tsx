@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const internalLinks = [
   { label: "William Beckford", href: "/william-beckford" },
