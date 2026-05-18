@@ -293,7 +293,7 @@ const volumes: { vol: number; contents: string[] }[] = [
   },
 ];
 
-const availableVols = new Set([2, 3, 4, 5, 12, 13, 14]);
+const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14]);
 
 function pdfFilename(vol: number) {
   return `beckfordjournalvol${vol}.pdf`;
