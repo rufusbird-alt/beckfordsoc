@@ -29,22 +29,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Society blurb */}
           <div>
-            <div className="flex items-center gap-3 mb-3">
-              <Image
-                src="/images/beckfordsociety-logo-122x113.png"
-                alt="The Beckford Society"
-                width={56}
-                height={52}
-                className="opacity-90"
-              />
-              <p className="font-[family-name:var(--font-display)] text-lg text-parchment font-medium">
-                The Beckford Society
-              </p>
-            </div>
-            <p className="text-sm leading-relaxed">
+            <p className="font-[family-name:var(--font-display)] text-lg text-parchment font-medium mb-3">
+              The Beckford Society
+            </p>
+            <p className="text-sm leading-relaxed mb-6">
               Founded in 1995. Dedicated to the life, work, and world of
               William Beckford (1760–1844).
             </p>
+            <Image
+              src="/images/beckfordsociety-logo-122x113.png"
+              alt="The Beckford Society"
+              width={122}
+              height={113}
+              className="w-full h-auto opacity-80"
+            />
           </div>
 
           {/* Site links */}
