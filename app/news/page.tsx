@@ -11,7 +11,7 @@ const newsItems = [
     date: "4 July 2026",
     category: "Annual General Meeting",
     title: "AGM 2026 — Bath (date change)",
-    body: "The Annual General Meeting of the Beckford Society will be held on Saturday 4 July 2026 in Bath. Please note this is a change of date. Further details, including the venue and agenda, will be circulated to members in due course. Members wishing to submit items for the agenda should contact the Secretary.",
+    body: "The Annual General Meeting of the Beckford Society will be held on Saturday 4 July 2026 in Bath. Further details, including the venue and agenda, will be circulated to members in due course. Members wishing to submit items for the agenda should contact the Secretary.",
   },
 ];
 
