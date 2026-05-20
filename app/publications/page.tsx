@@ -168,7 +168,7 @@ export default function PublicationsPage() {
           Four published collections of the Society's annual lectures are
           available. They may be obtained from the Society's Secretary, or by
           ordering in the UK at your usual bookshop. Lectures from 2011 are
-          published in the <em>Beckford Journal</em>.
+          published in <em>The Beckford Journal</em>.
         </p>
         <div className="space-y-8">
           {lectureVolumes.map((vol) => (
