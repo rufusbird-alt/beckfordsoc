@@ -20,6 +20,7 @@ const externalLinks = [
     href: "https://www.bsecs.org.uk/",
   },
   { label: "Enfilade", href: "https://enfilade18thc.com/" },
+  { label: "Fonthill Estate", href: "https://fonthill.co.uk" },
 ];
 
 export default function Footer() {

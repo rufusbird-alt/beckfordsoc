@@ -9,16 +9,15 @@ const committee = [
   { role: "Vice-President", name: "Daniele Niedda" },
   { role: "Chairman", name: "Stephen Clarke" },
   { role: "Secretary", name: "Sidney Blackmore" },
-  { role: "Treasurer", name: "Jane Wainwright" },
+  { role: "Treasurer", name: "Roger Southgate" },
 ];
 
 const members = [
   "Sidney Blackmore",
   "Stephen Clarke",
-  "Mike Fraser",
   "Amy Frost",
   "Kim Sloan",
-  "Jane Wainwright",
+  "Roger Southgate",
 ];
 
 export default function AboutPage() {
@@ -43,9 +42,14 @@ export default function AboutPage() {
           <li>Hosting annual lectures and symposiums</li>
           <li>
             Supporting the preservation of Beckford's Tower in Bath and related
-            historical sites
+            historical sites and objects associated with William Beckford
           </li>
         </ul>
+        <p>
+          The Society has made occasional visits to places and collections
+          associated with Beckford, in the UK, Portugal, Switzerland and the Bay
+          of Naples.
+        </p>
       </div>
 
       <section className="mb-12">
@@ -74,6 +78,8 @@ export default function AboutPage() {
       <section>
         <h2 className="heading-display text-2xl mb-4">Contact</h2>
         <address className="not-italic text-sm text-ink-soft leading-relaxed bg-parchment-dim px-6 py-5">
+          Sidney Blackmore, Secretary
+          <br />
           The Timber Cottage
           <br />
           Crockerton
@@ -83,6 +89,13 @@ export default function AboutPage() {
           Wiltshire BA12 8AX
           <br />
           United Kingdom
+          <br />
+          <a
+            href="mailto:sidney.blackmore@btinternet.com"
+            className="text-oxblood"
+          >
+            sidney.blackmore@btinternet.com
+          </a>
         </address>
       </section>
     </div>

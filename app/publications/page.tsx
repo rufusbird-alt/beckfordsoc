@@ -135,7 +135,7 @@ export default function PublicationsPage() {
         <p className="text-ink-soft leading-relaxed mb-6">
           Compiled by Jon Millington, founding editor of{" "}
           <em>The Beckford Journal</em>, after four decades of research.
-          Millington authored a guide to Beckford's Tower, participated in the
+          He wrote the guide to Beckford's Tower, participated in the
           1976 William Beckford Exhibition, curated{" "}
           <em>Souvenirs of Fonthill Abbey</em> (1994), and prepared{" "}
           <em>William Beckford and his Circle in the Gentleman's Magazine</em>{" "}
@@ -144,7 +144,7 @@ export default function PublicationsPage() {
         <div className="bg-parchment-dim p-6 text-sm space-y-1">
           <p>
             <span className="font-semibold">Publisher:</span> The Beckford
-            Society
+            Society 2008
           </p>
           <p>
             <span className="font-semibold">ISBN:</span> 978-0-9537836-3-2
@@ -167,7 +167,8 @@ export default function PublicationsPage() {
         <p className="text-ink-soft leading-relaxed mb-8">
           Four published collections of the Society's annual lectures are
           available. They may be obtained from the Society's Secretary, or by
-          ordering in the UK at your usual bookshop.
+          ordering in the UK at your usual bookshop. Lectures from 2011 are
+          published in the <em>Beckford Journal</em>.
         </p>
         <div className="space-y-8">
           {lectureVolumes.map((vol) => (
@@ -204,17 +205,12 @@ export default function PublicationsPage() {
         <h2 className="heading-display text-2xl mb-4">
           Conversations with Beckford
         </h2>
-        <p className="text-ink-soft leading-relaxed mb-4">
-          A facsimile reproduction of articles from the{" "}
-          <em>New Monthly Magazine</em>, with an introduction and index by Jon
-          Millington.
-        </p>
-        <p className="text-sm text-ink-soft">
-          To order, please{" "}
-          <Link href="/contact" className="text-oxblood">
-            contact the Secretary
-          </Link>
-          .
+        <p className="text-ink-soft leading-relaxed">
+          Shortly after William Beckford's death in May 1844, the{" "}
+          <em>New Monthly Magazine</em> published a series of recollections by
+          Cyrus Redding and others. This volume is a facsimile of these articles
+          with an introduction and index by Jon Millington. ISBN
+          978-0-9537836-6-3. £6.
         </p>
       </section>
 

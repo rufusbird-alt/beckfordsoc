@@ -308,11 +308,17 @@ export default function JournalPage() {
         <p className="eyebrow mb-2">The Beckford Society</p>
         <h1 className="heading-display text-4xl mb-4">The Beckford Journal</h1>
         <hr className="rule-gilt my-6" />
-        <p className="text-ink-soft leading-relaxed">
+        <p className="text-ink-soft leading-relaxed mb-4">
           <em>The Beckford Journal</em> has been published since 1995 to fulfil
           the Society's aim of supporting Beckford studies and scholarship.
           Volumes available for download are marked below. Volumes not yet
           digitised are listed with their full contents for reference.
+        </p>
+        <p className="text-ink-soft leading-relaxed">
+          The Honorary Editor is Dr Kim Sloan. Email:{" "}
+          <a href="mailto:ksloan2003@yahoo.co.uk" className="text-oxblood">
+            ksloan2003@yahoo.co.uk
+          </a>
         </p>
       </div>
 
@@ -365,13 +371,12 @@ export default function JournalPage() {
 
       <div className="mt-10 p-6 bg-parchment-dim border-l-2 border-gilt max-w-2xl">
         <p className="text-sm text-ink-soft leading-relaxed">
-          Further volumes will be added as digitisation continues. If you have
-          physical copies of volumes not available for download and would like
-          to help, please{" "}
-          <Link href="/contact" className="text-oxblood">
-            contact us
-          </Link>
-          .
+          Further volumes will be added as digitalisation continues. Copies are
+          still available of many past volumes. Please contact the Secretary via
+          email:{" "}
+          <a href="mailto:sidney.blackmore@btinternet.com" className="text-oxblood">
+            sidney.blackmore@btinternet.com
+          </a>
         </p>
       </div>
     </div>

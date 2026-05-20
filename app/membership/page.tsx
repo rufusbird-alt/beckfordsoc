@@ -43,11 +43,25 @@ export default function MembershipPage() {
 
       <hr className="rule-gilt my-10 opacity-40" />
 
+      {/* Bank transfer */}
+      <section className="mb-12">
+        <h2 className="heading-display text-2xl mb-4">Pay by Bank Transfer</h2>
+        <p className="text-ink-soft text-sm leading-relaxed">
+          Payments may be made direct to the Society's bank account. Details are
+          available from the Secretary —{" "}
+          <a href="mailto:sidney.blackmore@btinternet.com" className="text-oxblood">
+            Sidney Blackmore: sidney.blackmore@btinternet.com
+          </a>
+        </p>
+      </section>
+
+      <hr className="rule-gilt my-10 opacity-40" />
+
       {/* Postal */}
       <section>
         <h2 className="heading-display text-2xl mb-4">Apply by Post</h2>
         <p className="text-ink-soft leading-relaxed mb-4">
-          Applications and cheques (payable to <em>The Beckford Society</em>)
+          Applications and cheques (payable to <em>The International Beckford Society</em>)
           may be sent to the Secretary:
         </p>
         <address className="not-italic bg-parchment-dim px-6 py-5 text-sm text-ink-soft leading-relaxed">
