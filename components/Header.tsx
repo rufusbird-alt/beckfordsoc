@@ -25,10 +25,10 @@ export default function Header() {
           className="flex items-center gap-3 no-underline hover:opacity-90 transition-opacity"
         >
           <Image
-            src="/images/beckfordsociety-logo-122x113.png"
+            src="/images/william-beckford/beckford-society-logo-800.png"
             alt="The Beckford Society"
             width={64}
-            height={59}
+            height={65}
             className="shrink-0"
           />
           <span className="font-[family-name:var(--font-display)] text-xl font-medium tracking-wide text-parchment">

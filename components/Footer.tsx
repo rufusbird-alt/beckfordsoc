@@ -38,10 +38,10 @@ export default function Footer() {
               William Beckford (1760–1844).
             </p>
             <Image
-              src="/images/beckfordsociety-logo-122x113.png"
+              src="/images/william-beckford/beckford-society-logo-800.png"
               alt="The Beckford Society"
               width={122}
-              height={113}
+              height={124}
               className="w-full h-auto opacity-80"
             />
           </div>
