@@ -291,12 +291,25 @@ const volumes: { vol: number; contents: string[] }[] = [
       "DIANA BERRY: Anthony Hobson: A Memoir",
     ],
   },
+  { vol: 22, contents: [] },
+  { vol: 23, contents: [] },
+  { vol: 24, contents: [] },
+  { vol: 25, contents: [] },
+  { vol: 26, contents: [] },
 ];
 
-const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14]);
+const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14, 22, 23, 24, 25, 26]);
+
+const volPdfNames: Record<number, string> = {
+  22: "2016 vol 22 13501 - Beckford Journal B McL ed.pdf",
+  23: "2017 vol 23 14941 - Beckford Journal 23.pdf",
+  24: "2018 vol 24 16071 - Beckford Journal.pdf",
+  25: "2019 vol 25 Beckford Journal.pdf",
+  26: "2020 vol 26 18770 Beckford Journal.pdf",
+};
 
 function pdfFilename(vol: number) {
-  return `beckfordjournalvol${vol}.pdf`;
+  return volPdfNames[vol] ?? `beckfordjournalvol${vol}.pdf`;
 }
 
 export default function JournalPage() {
@@ -333,7 +346,7 @@ export default function JournalPage() {
               <summary className="flex items-center justify-between px-6 py-4 cursor-pointer list-none select-none hover:bg-parchment-dim transition-colors">
                 <div className="flex items-center gap-4">
                   <span className="font-[family-name:var(--font-display)] text-xl text-ink">
-                    Volume {vol}
+                    Volume {vol} ({1994 + vol})
                   </span>
                   {available && (
                     <span className="eyebrow text-gilt text-xs">
@@ -345,13 +358,15 @@ export default function JournalPage() {
                   ▾
                 </span>
               </summary>
-              <ul className="px-6 pt-4 border-t border-parchment-dim space-y-2">
-                {contents.map((item, i) => (
-                  <li key={i} className="text-sm text-ink-soft leading-snug">
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              {contents.length > 0 && (
+                <ul className="px-6 pt-4 border-t border-parchment-dim space-y-2">
+                  {contents.map((item, i) => (
+                    <li key={i} className="text-sm text-ink-soft leading-snug">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
               {available && (
                 <div className="px-6 py-4">
                   <a
