@@ -51,7 +51,7 @@ export default function NewsPage() {
               download
               className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
             >
-              Download Notification Form (PDF) ↓
+              Download Attendance Form (PDF) ↓
             </a>
           </div>
         </article>
