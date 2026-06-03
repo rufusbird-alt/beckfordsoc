@@ -167,8 +167,8 @@ export default function PublicationsPage() {
         <p className="text-ink-soft leading-relaxed mb-8">
           Four published collections of the Society's annual lectures are
           available. They may be obtained from the Society's Secretary, or by
-          ordering in the UK at your usual bookshop. Lectures from 2011 are
-          published in <em>The Beckford Journal</em>.
+          ordering in the UK at your usual bookshop. Lectures from 2011 have been
+          published annually in <em>The Beckford Journal</em>.
         </p>
         <div className="space-y-8">
           {lectureVolumes.map((vol) => (

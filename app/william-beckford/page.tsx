@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const chronology = [
   {
     year: "1760",
-    text: "Born on 1 October at 22 Soho Square, London, the only legitimate son of Alderman William Beckford (1709–1770), twice Lord Mayor of London, and Maria Hamilton, daughter of the Hon. George Hamilton. Godson of William Pitt the Elder, Earl of Chatham.",
+    text: "Born on 1 October at 22 Soho Square, London, the only legitimate child of Alderman William Beckford (1709–1770), twice Lord Mayor of London, and Maria Hamilton, daughter of the Hon. George Hamilton.",
   },
   {
     year: "1770",
@@ -17,31 +17,31 @@ const chronology = [
   },
   {
     year: "1777",
-    text: "Moves to Geneva in the company of his tutor, the Rev. John Lettice, and his uncle Colonel Hamilton. His private education up to this point has been under Robert Drysdale and Lettice; he studies drawing under Alexander Cozens, architecture under Sir William Chambers, and receives brief musical instruction from the young Mozart.",
+    text: "Moves to Geneva in the company of his tutor, the Rev. John Lettice, and Colonel Edward Hamilton, a relative of his mother's. His private education up to this point has been under Robert Drysdale and Lettice; he studies drawing under Alexander Cozens, architecture under Sir William Chambers, and receives brief musical instruction from the young Mozart.",
   },
   {
     year: "1780 – 1782",
-    text: <>First Grand Tour of Europe with Lettice, arriving in Venice in 1780. Publishes <em>Memoirs of Extraordinary Painters</em> (1780). Composes an overture to the ballet <em>Phaeton</em>, engraved in Paris in 1781–82.</>,
+    text: <>First Grand Tour of Europe with Lettice, travelling as far as Naples in 1780. Publishes <em>Memoirs of Extraordinary Painters</em> (1780). His overture to the ballet <em>Phaeton</em>, published in Paris in c. 1781.</>,
   },
   {
     year: "1781",
-    text: 'Comes of age in September and formally inherits the family fortune. The occasion is marked by celebrations at Fonthill Splendens said to have cost £40,000. He is described in the press as "England\'s wealthiest son".',
+    text: 'Comes of age in September and formally inherits the family fortune. The occasion is marked by elaborate celebrations at Fonthill Splendens said to have cost £40,000. Byron later described him as "England\'s wealthiest son".',
   },
   {
     year: "1782",
-    text: <>Writes <em>Vathek, An Arabian Tale</em> — in French, reputedly at a single feverish sitting at Fonthill. Issued in an unauthorised English translation in 1786.</>,
+    text: <>Writes <em>Vathek</em> — in French, reputedly at a single feverish sitting at Fonthill. Issued in an unauthorised English translation in 1786. May - November, second Grand Tour to Italy with retinue including the artist John Robert Cozens and musician John Burton.</>,
   },
   {
     year: "1783",
-    text: <>Publishes <em>Dreams, Waking Thoughts and Incidents</em>, the journals of his Grand Tour, suppressed on publication. Marries Lady Margaret Gordon, daughter of the 4th Earl of Aboyne, on 5 May. Two daughters follow — Margaret Maria Elizabeth (1785) and Susanna Euphemia, 'Susan' (1786).</>,
+    text: <><em>Dreams, Waking Thoughts and Incidents</em>, the journals of his Grand Tour, is suppressed on publication. Marries Lady Margaret Gordon, daughter of the 4th Earl of Aboyne, on 5 May. Two daughters follow — Margaret Maria Elizabeth (1785) and Susanna Euphemia, 'Susan' (1786).</>,
   },
   {
     year: "1784",
-    text: "Elected Member of Parliament for Wells. Later the same year the 'Courtenay affair' — an alleged intimacy with the young William Courtenay, heir to the earldom of Devon — is seized upon by Courtenay's uncle, Lord Loughborough, Beckford's political enemy, and turned against him in the press. No formal charges follow, but the scandal closes the doors of polite society to him for much of the remainder of his life.",
+    text: "Elected Member of Parliament for Wells. Later the same year the 'Powderham Scandal' — an alleged intimacy with the young William Courtenay, heir to the earldom of Devon — is seized upon by Courtenay's uncle, Lord Loughborough, Beckford's political enemy, and turned against him in the press. No formal charges follow, but the scandal closes the doors of polite society to him for much of the remainder of his life.",
   },
   {
     year: "1786",
-    text: "Death of Lady Margaret following the birth of their younger daughter. Beckford travels on the Continent for much of the next decade — Portugal, Spain, Italy, France — collecting books, manuscripts, paintings and objects of vertu.",
+    text: "Death in Switzerland of Lady Margaret following the birth of their younger daughter. Beckford travels on the Continent for much of the next decade — Portugal, Spain, Italy, France — collecting books, manuscripts, paintings and objects of vertu.",
   },
   {
     year: "1787",
@@ -57,15 +57,11 @@ const chronology = [
   },
   {
     year: "1807",
-    text: "Moves into Fonthill Abbey. Construction continues until 1809. There he assembles one of the most remarkable private collections of art, books, and decorative art ever formed in Britain — including Edward Gibbon's entire library of some 6,000–7,000 volumes, Mughal hardstone carvings, lacquer, Asian metalwork and ceramics, Italian Quattrocento paintings, and a great trove of French royal and aristocratic property acquired in the aftermath of the Revolution.",
-  },
-  {
-    year: "1819 – 1821",
-    text: "Parts of the Abbey are rebuilt. The tower begins to show signs of structural failure.",
+    text: "Moves into Fonthill Abbey. Construction continues until 1809. There he assembles one of the most remarkable private collections of art, books, and decorative art ever formed in Britain including Italian pietre dure, Mughal hardstone carvings, lacquer, Asian metalwork and ceramics, Italian Quattrocento paintings, and a great trove of French royal and aristocratic furniture acquired in Paris in the aftermath of the Revolution.",
   },
   {
     year: "1822",
-    text: "Under the pressure of his extravagances and the falling price of sugar from the Jamaican estates, Beckford sells Fonthill Abbey, together with part of its art collection, to the former East India merchant John Farquhar for £330,000.",
+    text: "Under the pressure of his extravagances and the falling price of sugar from the Jamaican estates, Beckford sells Fonthill Abbey, together with much of the contents, to the former East India merchant John Farquhar for £330,000. He moves to Bath",
   },
   {
     year: "1823",
@@ -73,11 +69,11 @@ const chronology = [
   },
   {
     year: "1823 – 1827",
-    text: "Commissions Henry Goodridge to build Lansdown Tower above Bath, 154 feet in height. Consolidates a group of houses at Lansdown Crescent (later joined by Nos. 18 and 19, acquired in 1836) into his final residence.",
+    text: "Commissions Henry Goodridge to build Lansdown Tower above Bath, 154 feet in height. Remodels the interiors of Nos 19 and 20 Lansdown Crescent into his final residence.",
   },
   {
     year: "1825",
-    text: "The Great Tower at Fonthill collapses.",
+    text: "21 December: The Great Tower at Fonthill collapses.",
   },
   {
     year: "1833 – 1834",
@@ -93,11 +89,11 @@ const chronology = [
   },
   {
     year: "1848",
-    text: "Susan presents Lansdown Tower and its grounds to Walcot parish so that her father might rest there; the land is consecrated and Beckford is reinterred beside the tower.",
+    text: "Susan presents Lansdown Tower and its grounds to the Rector of Walcot parish so that her father might rest there; the land is consecrated and Beckford is reinterred beside the tower.",
   },
   {
     year: "1882",
-    text: "The art, books and decorative objects that Beckford had kept, or bought back, at Lansdown — which had passed on his death to Susan and thence to the Dukes of Hamilton — are dispersed at the Hamilton Palace sale, one of the greatest art-market events of the nineteenth century. Works from Beckford's collection enter the South Kensington Museum (now the V&A), the National Gallery, the Wallace Collection, the National Museum of Ireland, the Metropolitan Museum of Art, the Frick Collection, the J. Paul Getty Museum, the Huntington Library and Art Gallery, and many other public and private holdings across Europe and North America.",
+    text: "The art, books and decorative objects that Beckford had kept, or bought back, at Lansdown — which had passed on his death to Susan and thence to the Dukes of Hamilton — are dispersed at the Hamilton Palace sale, one of the greatest art-market events of the nineteenth century. Works from Beckford's collection are in the V&A, the British Museum, the National Gallery, the Wallace Collection, the National Museum of Ireland, the Metropolitan Museum of Art, the Frick Collection, the J. Paul Getty Museum, the Huntington Library and Art Gallery, and many other public and private collections across Europe and North America.",
   },
 ];
 
