@@ -21,7 +21,7 @@ const chronology = [
   },
   {
     year: "1780 – 1782",
-    text: "First Grand Tour of Europe with Lettice, arriving in Venice in 1780. Publishes Memoirs of Extraordinary Painters (1780). Composes an overture to the ballet Phaeton, engraved in Paris in 1781–82.",
+    text: <>First Grand Tour of Europe with Lettice, arriving in Venice in 1780. Publishes <em>Memoirs of Extraordinary Painters</em> (1780). Composes an overture to the ballet <em>Phaeton</em>, engraved in Paris in 1781–82.</>,
   },
   {
     year: "1781",
@@ -29,11 +29,11 @@ const chronology = [
   },
   {
     year: "1782",
-    text: "Writes Vathek, An Arabian Tale — in French, reputedly at a single feverish sitting at Fonthill. Issued in an unauthorised English translation in 1786.",
+    text: <>Writes <em>Vathek, An Arabian Tale</em> — in French, reputedly at a single feverish sitting at Fonthill. Issued in an unauthorised English translation in 1786.</>,
   },
   {
     year: "1783",
-    text: "Marries Lady Margaret Gordon, daughter of the 4th Earl of Aboyne, on 5 May. Publishes Dreams, Waking Thoughts and Incidents, the journals of his Grand Tour. Two daughters follow — Margaret Maria Elizabeth (1785) and Susanna Euphemia, 'Susan' (1786).",
+    text: <>Publishes <em>Dreams, Waking Thoughts and Incidents</em>, the journals of his Grand Tour, suppressed on publication. Marries Lady Margaret Gordon, daughter of the 4th Earl of Aboyne, on 5 May. Two daughters follow — Margaret Maria Elizabeth (1785) and Susanna Euphemia, 'Susan' (1786).</>,
   },
   {
     year: "1784",
@@ -44,12 +44,16 @@ const chronology = [
     text: "Death of Lady Margaret following the birth of their younger daughter. Beckford travels on the Continent for much of the next decade — Portugal, Spain, Italy, France — collecting books, manuscripts, paintings and objects of vertu.",
   },
   {
+    year: "1787",
+    text: "First visit to Portugal, where he meets Gregorio Franchi, who will be his companion for the next 35 years.",
+  },
+  {
     year: "1790 – 1797",
     text: "Approaches the architect James Wyatt with a commission for what will become Fonthill Abbey. Wyatt exhibits the first plans at the Royal Academy in 1797; by 1798 the design has grown, and the tower now reaches for 300 feet. Beckford returns to Parliament as Member for Hindon (1790–94, and again 1806–20). He is not an active legislator, though he comments publicly on the question of abolition in 1796.",
   },
   {
     year: "1793 – 1795",
-    text: "Resides in Portugal. The letters and journals of this period are later reworked as Italy; with Sketches of Spain and Portugal (1834) and Recollections of an Excursion to the Monasteries of Alcobaça and Batalha (1835).",
+    text: <>Resides in Portugal. The letters and journals of this period are later reworked as <em>Italy; with Sketches of Spain and Portugal</em> (1834) and <em>Recollections of an Excursion to the Monasteries of Alcobaça and Batalha</em> (1835).</>,
   },
   {
     year: "1807",
