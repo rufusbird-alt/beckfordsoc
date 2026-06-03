@@ -10,6 +10,7 @@ const nav = [
   { label: "Journal", href: "/journal" },
   { label: "Publications", href: "/publications" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Collections", href: "/collections" },
   { label: "News", href: "/news" },
   { label: "Membership", href: "/membership" },
 ];

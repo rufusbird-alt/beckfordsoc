@@ -8,6 +8,7 @@ const internalLinks = [
   { label: "Newsletters", href: "/newsletters" },
   { label: "Publications", href: "/publications" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Collections", href: "/collections" },
   { label: "News", href: "/news" },
   { label: "Membership", href: "/membership" },
 ];
