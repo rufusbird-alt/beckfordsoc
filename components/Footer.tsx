@@ -21,6 +21,10 @@ const externalLinks = [
   },
   { label: "Enfilade", href: "https://enfilade18thc.com/" },
   { label: "Fonthill Estate", href: "https://fonthill.co.uk" },
+  {
+    label: "Bodleian Library: Beckford Archive",
+    href: "https://archives.bodleian.ox.ac.uk/repositories/2/resources/3196",
+  },
 ];
 
 export default function Footer() {

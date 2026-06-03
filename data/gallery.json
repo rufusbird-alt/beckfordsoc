@@ -1,110 +1,110 @@
 [
   {
-    "file": "website1.JPG",
-    "caption": "Beckford's Tower, Bath",
-    "description": "The tower Beckford built on Lansdown Hill, Bath — his second great architectural project after Fonthill Abbey collapsed.",
-    "category": "architecture"
-  },
-  {
-    "file": "website2.JPG",
+    "file": "portraits/young-beckford1.JPG",
     "caption": "William Beckford as a Child, c.1764",
     "description": "Portrait of the young Beckford, heir to one of the greatest fortunes in England.",
     "category": "portraits"
   },
   {
-    "file": "website3.JPG",
-    "caption": "William Beckford on Horseback",
-    "description": "Sketch of Beckford in later life, renowned as an exceptionally fine horseman.",
-    "category": "portraits"
-  },
-  {
-    "file": "website4.jpg",
-    "caption": "A Fête at Fonthill Abbey, c.1822",
-    "description": "Scene in the fountain court during one of Beckford's legendary entertainments.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website5.JPG",
-    "caption": "Cross-Section of Fonthill Abbey Tower",
-    "description": "Architectural engraving revealing the extraordinary internal structure of Fonthill's central tower, which soared to over 270 feet.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website6.jpg",
-    "caption": "William Beckford on his Deathbed, 1844",
-    "description": "Miniature portrait in an elaborate gilt frame. Beckford died at his home on Lansdown Crescent, Bath, aged 84.",
-    "category": "portraits"
-  },
-  {
-    "file": "website7.JPG",
-    "caption": "Map of the Fonthill Domain, 1823",
-    "description": "Surveyed and planned for John Rutter's 'History and Description of Fonthill Abbey', showing the vast walled estate.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website8.jpg",
-    "caption": "William Beckford, c.1795",
-    "description": "Portrait of the author of Vathek, aged around thirty-five — traveller, collector, and builder of Fonthill Abbey.",
-    "category": "portraits"
-  },
-  {
-    "file": "website9.JPG",
-    "caption": "King Edward's Gallery, Fonthill Abbey",
-    "description": "Coloured aquatint showing the richly furnished long gallery hung with paintings and tapestries.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website10.jpg",
-    "caption": "Fonthill Abbey, West and North Fronts",
-    "description": "Engraving of the great gothic pile against a dramatic sky. Fonthill Abbey was the largest private house ever built in England.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website11.JPG",
-    "caption": "Plan of the Principal Story, Fonthill Abbey, 1823",
-    "description": "From John Rutter's survey. The cruciform plan shows the Grand Drawing Room, galleries, oratory, and the vast octagon beneath the tower.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website12.JPG",
-    "caption": "The Ruins of Fonthill Abbey after the Tower Collapse, 1825",
-    "description": "The great tower fell in December 1825, two years after Beckford sold the estate. The ruins were largely demolished.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website13.JPG",
-    "caption": "The Great Drawing Room, Fonthill Abbey",
-    "description": "Engraving of the Great Drawing Room at Fonthill Abbey, showing Beckford's remarkable collection of paintings, objets d'art, and furnishings.",
-    "category": "fonthill"
-  },
-  {
-    "file": "website14.jpg",
-    "caption": "The Tunnel at Lansdown Tower, Bath",
-    "description": "Drawing of the subterranean passage that connected Beckford's Lansdown gardens to the hillside above.",
-    "category": "architecture"
-  },
-  {
-    "file": "website15.JPG",
+    "file": "portraits/Romney-beckford2.JPG",
     "caption": "William Beckford, c.1781",
     "description": "Full-length portrait painted when Beckford was twenty-one, shortly before he wrote Vathek during a three-day fever.",
     "category": "portraits"
   },
   {
-    "file": "website16.JPG",
+    "file": "portraits/portrait-beckford3.jpg",
+    "caption": "William Beckford, c.1795",
+    "description": "Portrait of the author of Vathek, aged around thirty-five — traveller, collector, and builder of Fonthill Abbey.",
+    "category": "portraits"
+  },
+  {
+    "file": "portraits/older-beckford4.JPG",
+    "caption": "William Beckford on Horseback",
+    "description": "Sketch of Beckford in later life, renowned as an exceptionally fine horseman.",
+    "category": "portraits"
+  },
+  {
+    "file": "portraits/deathbed-beckford5.jpg",
+    "caption": "William Beckford on his Deathbed, 1844",
+    "description": "Miniature portrait in an elaborate gilt frame. Beckford died at his home on Lansdown Crescent, Bath, aged 84.",
+    "category": "portraits"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey1.jpg",
+    "caption": "Fonthill Abbey, West and North Fronts",
+    "description": "Engraving of the great gothic pile against a dramatic sky. Fonthill Abbey was the largest private house ever built in England.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey2.JPG",
+    "caption": "Cross-Section of Fonthill Abbey Tower",
+    "description": "Architectural engraving revealing the extraordinary internal structure of Fonthill's central tower, which soared to over 270 feet.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey3.JPG",
+    "caption": "Plan of the Principal Story, Fonthill Abbey, 1823",
+    "description": "From John Rutter's survey. The cruciform plan shows the Grand Drawing Room, galleries, oratory, and the vast octagon beneath the tower.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey4.JPG",
+    "caption": "Map of the Fonthill Domain, 1823",
+    "description": "Surveyed and planned for John Rutter's 'History and Description of Fonthill Abbey', showing the vast walled estate.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey5.JPG",
+    "caption": "King Edward's Gallery, Fonthill Abbey",
+    "description": "Coloured aquatint showing the richly furnished long gallery hung with paintings and tapestries.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey6.JPG",
+    "caption": "The Great Drawing Room, Fonthill Abbey",
+    "description": "Engraving of the Great Drawing Room at Fonthill Abbey, showing Beckford's remarkable collection of paintings, objets d'art, and furnishings.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey7.JPG",
     "caption": "The Vaulted Corridor, Fonthill Abbey",
     "description": "Coloured aquatint of one of the great internal galleries, with fan-vaulted ceiling and crimson-hung walls stretching into the distance.",
     "category": "fonthill"
   },
   {
-    "file": "website17.JPG",
+    "file": "fonthill abbey/fonthill-abbey8.JPG",
     "caption": "St Michael's Gallery, Fonthill Abbey",
     "description": "Coloured aquatint showing the oratory with its soaring gothic windows and view over the Wiltshire landscape.",
     "category": "fonthill"
   },
   {
-    "file": "website18.JPG",
+    "file": "fonthill abbey/fonthill-abbey9.jpg",
+    "caption": "A Fête at Fonthill Abbey, c.1822",
+    "description": "Scene in the fountain court during one of Beckford's legendary entertainments.",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey10.JPG",
+    "caption": "The Ruins of Fonthill Abbey after the Tower Collapse, 1825",
+    "description": "The great tower fell in December 1825, two years after Beckford sold the estate. The ruins were largely demolished.",
+    "category": "fonthill"
+  },
+  {
+    "file": "bath/lansdowntower.JPG",
+    "caption": "Beckford's Tower, Bath",
+    "description": "The tower Beckford built on Lansdown Hill, Bath — his second great architectural project after Fonthill Abbey collapsed.",
+    "category": "bath"
+  },
+  {
+    "file": "bath/crimson-drawing-room-bath.JPG",
     "caption": "The Crimson Drawing Room, Lansdown Tower, Bath",
     "description": "Coloured illustration of the Crimson Drawing Room at Lansdown Tower, showing Beckford's richly decorated Bath retreat.",
-    "category": "architecture"
+    "category": "bath"
+  },
+  {
+    "file": "bath/website14.jpg",
+    "caption": "The Tunnel at Lansdown Tower, Bath",
+    "description": "Drawing of the subterranean passage that connected Beckford's Lansdown gardens to the hillside above.",
+    "category": "bath"
   }
 ]

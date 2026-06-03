@@ -12,7 +12,7 @@ type GalleryItem = {
 const categories = [
   { key: "portraits", label: "Portraits" },
   { key: "fonthill", label: "Fonthill Abbey" },
-  { key: "architecture", label: "Architecture" },
+  { key: "bath", label: "Bath" },
 ];
 
 export default function GalleryClient({ items }: { items: GalleryItem[] }) {
