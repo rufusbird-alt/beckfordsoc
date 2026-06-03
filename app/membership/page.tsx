@@ -37,13 +37,13 @@ export default function MembershipPage() {
           Please complete a membership form using one of the options below.
         </p>
         <div className="flex flex-wrap gap-6">
-          <Link
-            href="/membership/form"
-            target="_blank"
+          <a
+            href="/pdfs/JOIN THE BECKFORD SOCIETY.pdf"
+            download
             className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
           >
-            Download / Print Form →
-          </Link>
+            Download / Print Form (PDF) →
+          </a>
         </div>
         <p className="text-xs text-fog mt-2">
           Print, complete by hand, scan and email to{" "}
