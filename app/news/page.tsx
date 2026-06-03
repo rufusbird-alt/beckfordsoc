@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "News",
@@ -21,6 +22,20 @@ export default function NewsPage() {
           <h2 className="heading-display text-xl text-ink mb-3">
             AGM 2026 — Bath
           </h2>
+
+          <figure className="mb-6">
+            <Image
+              src="/news/nautilus1.jpg"
+              alt="Silver-gilt-mounted nautilus shell-cup, Holburne Museum"
+              width={600}
+              height={450}
+              className="w-full h-auto"
+            />
+            <figcaption className="text-xs text-fog italic mt-2">
+              Silver-gilt-mounted nautilus shell-cup, the shell incised with Chinese processional scene, c. 1580–90. Schroder collection, Holburne Museum, Bath.
+            </figcaption>
+          </figure>
+
           <p className="text-ink-soft leading-relaxed mb-4">
             The Annual General Meeting of the Beckford Society will be held on
             Saturday 4 July 2026 at the Holburne Museum, Great Pulteney Street,
@@ -39,7 +54,7 @@ export default function NewsPage() {
           </div>
           <div className="flex flex-wrap gap-6 mt-4">
             <a
-              href="/news/AGM2026-agenda.pdf"
+              href="/news/agm2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
@@ -47,7 +62,7 @@ export default function NewsPage() {
               View Agenda (PDF) ↗
             </a>
             <a
-              href="/news/BECKFORD-SOCIETY-AGM-2026-form.pdf"
+              href="/news/BECKFORD-SOCIETY-agm-attendance.pdf"
               download
               className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
             >
