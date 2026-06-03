@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 
 const portraits = [
-  { file: "website8.jpg", caption: "William Beckford, c.1795" },
-  { file: "website15.JPG", caption: "William Beckford, c.1781" },
-  { file: "website2.JPG", caption: "William Beckford as a Child, c.1764" },
-  { file: "website6.jpg", caption: "William Beckford on his Deathbed, 1844" },
+  { file: "portrait-beckford3.jpg", caption: "William Beckford, c.1795" },
+  { file: "Romney-beckford2.JPG", caption: "William Beckford, c.1781" },
+  { file: "young-beckford1.JPG", caption: "William Beckford as a Child, c.1764" },
+  { file: "deathbed-beckford5.jpg", caption: "William Beckford on his Deathbed, 1844" },
 ];
 
 export default function HeroCarousel() {
