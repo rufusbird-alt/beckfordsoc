@@ -127,12 +127,6 @@ const compensationAwards = [
 export default function WilliamBeckfordPage() {
   return (
     <div className="container-prose py-16 md:py-24">
-      <aside className="mb-10 rounded border border-[color:var(--color-gilt)] bg-[color:var(--color-parchment-dim)] px-4 py-3 text-sm">
-        <span className="eyebrow mr-2">Draft</span>
-        This page is a working draft for Society review and is not yet published
-        in its final form.
-      </aside>
-
       <p className="eyebrow mb-2">The Beckford Society</p>
       <h1 className="heading-display text-4xl md:text-5xl mt-0 mb-4">
         William Beckford
