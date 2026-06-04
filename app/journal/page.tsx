@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export const metadata = {
   title: "The Beckford Journal",
@@ -291,11 +290,59 @@ const volumes: { vol: number; contents: string[] }[] = [
       "DIANA BERRY: Anthony Hobson: A Memoir",
     ],
   },
-  { vol: 22, contents: [] },
-  { vol: 23, contents: [] },
-  { vol: 24, contents: [] },
-  { vol: 25, contents: [] },
-  { vol: 26, contents: [] },
+  {
+    vol: 22,
+    contents: [
+      "MIKE FRASER: C. F. Bell's Annotations of Beckford Biographies",
+      "STEPHEN CLARKE: In Conversation with Bob Gemmett",
+      "PETER FORSAITH: Adam Clarke's Visit to Fonthill, 1806",
+      "BET MCLEOD: A Glimpse into Some Hidden Aspects of the Beckford Collection at Brodick Castle",
+      "MALCOLM JACK: Laurent Châtel, William Beckford the Elusive Orientalist. A Review",
+    ],
+  },
+  {
+    vol: 23,
+    contents: [
+      "SIDNEY BLACKMORE: Two Beckford Visiting Cards",
+      "DIANE BARRE: The Journals of Mrs Elizabeth Hervey",
+      "MICHAEL RANSON: The Fonthill Volunteers",
+      "STEPHEN CLARKE: Serendipity in Tunbridge Wells",
+      "LISA WHITE: Michael Briggs (1926–2017) and Beckford's Tower: An Appreciation",
+      "MALCOLM JACK: Dennis Brickles, Beauty and Glory. A Review",
+    ],
+  },
+  {
+    vol: 24,
+    contents: [
+      "JONNY YARKER: Magick or mundane? Beckford and the Experience of Grand Tour Rome in the 1780s",
+      "MALCOLM JACK: William Beckford, Biographical Memoirs of Extraordinary Painters. New edition with Introduction and Notes by Robert J. Gemmett. Hobnot Press, 2018. A Review",
+      "MICHAEL COUSINS: A Fonthill Miscellany",
+      "ERIC RATCLIFF: Fonthill and the Colonial Imagination",
+      "STEPHEN CLARKE: 'A Bull-Pit Where The Slaughter Is Secondary To The Brilliant Display Of The Critic's Mastery Of Invective': Robert Metzdorf's Review of the Yale Beckford Bicentenary Exhibition Catalogue",
+      "JOHN WILTON-ELY: Caroline Dakers (ed.), Fonthill Recovered. A Cultural History. UCL Press, 2018. A Review",
+    ],
+  },
+  {
+    vol: 25,
+    contents: [
+      "CHARLIE COURTENAY: When Beckford came to stay: the emotional, aesthetic and literary impacts of a weekend at Powderham",
+      "MALCOLM JACK: William Beckford, Vathek and the Episodes of Vathek. A Review",
+      "PETER FORSAITH: John Stuttard, The Turbulent Quaker of Shaftesbury. A Review",
+      "ERIC RATCLIFF: The Unavoidable Absence: Fonthill Abbey and the Gothic Revival",
+      "AMY FROST: The Beckford Society Tour, Scotland, 2019",
+      "FRANCESCA SAGGINI: Mirella Billi: An appreciation",
+    ],
+  },
+  {
+    vol: 26,
+    contents: [
+      "STEPHEN LLOYD: 'A fairy palace' and 'a desert of magnificence': Richard Cosway's 20 Stratford Place and William Beckford's Fonthill Abbey",
+      "ANNE ALMOND: Musico – William Beckford and the Castrati",
+      "MALCOLM JACK: Beckford's Queer Life and His Biographers",
+      "STEPHEN CLARKE: Dale Townshend, Gothic Antiquity: History, Romance, and the Architectural Imagination, 1760–1840. A Review",
+      "ERIC RATCLIFF: A Succession of Unpremeditated Stages?",
+    ],
+  },
 ];
 
 const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14, 22, 23, 24, 25, 26]);
