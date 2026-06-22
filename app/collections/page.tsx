@@ -83,6 +83,19 @@ export default function CollectionsPage() {
           </Link>
         ))}
       </div>
+
+      <div className="mt-10 pt-6 border-t border-parchment-dim">
+        <p className="text-ink-soft text-sm leading-relaxed">
+          For a bibliographical account of the Fonthill sales and their catalogues and ephemera, see{" "}
+          <Link
+            href="/publications#fonthill-fever"
+            className="underline underline-offset-4 decoration-gilt hover:decoration-oxblood"
+          >
+            <em>Fonthill Fever: The Fonthill Sales 1822 &amp; 1823</em>
+          </Link>{" "}
+          in Society Publications.
+        </p>
+      </div>
     </div>
   );
 }

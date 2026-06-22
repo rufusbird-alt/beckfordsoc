@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Society Publications",
@@ -212,6 +213,60 @@ export default function PublicationsPage() {
           with an introduction and index by Jon Millington. ISBN
           978-0-9537836-6-3. £6.
         </p>
+      </section>
+
+      <hr className="rule-gilt my-10 opacity-40" />
+
+      {/* Fonthill Fever */}
+      <section id="fonthill-fever" className="mb-14">
+        <h2 className="heading-display text-2xl mb-4">
+          Fonthill Fever
+        </h2>
+        <div className="flex flex-col sm:flex-row gap-8 items-start">
+          <div className="shrink-0 w-40 sm:w-48">
+            <Image
+              src="/images/gallery/fonthill%20abbey/fonthill-abbey11.jpg"
+              alt="Fonthill Abbey 1823 admission ticket, engraved by Thomas Higham after Stedman Whitwell"
+              width={240}
+              height={340}
+              className="w-full h-auto border border-parchment-dim"
+            />
+          </div>
+          <div className="flex-1">
+            <p className="font-[family-name:var(--font-display)] text-lg text-ink mb-1">
+              <em>Fonthill Fever: The Fonthill Sales 1822 &amp; 1823</em>
+            </p>
+            <p className="text-xs text-fog mb-4">
+              Sidney Blackmore, 2022 (reprinted 2023)
+            </p>
+            <p className="text-ink-soft leading-relaxed mb-3">
+              Published in conjunction with the <em>Fonthill Fever</em> exhibition at the
+              Gold Hill Museum, Shaftesbury, this booklet presents two essays on the great
+              Fonthill sales of 1822 and 1823 — amongst the most celebrated dispersals of
+              art in Regency England.
+            </p>
+            <ul className="text-sm text-ink-soft space-y-1 mb-4 pl-4 list-disc">
+              <li>
+                <span className="font-medium text-ink">Robert J. Gemmett</span>
+                {" — "}
+                <em>Thus Passes the Glory of Fonthill</em>
+              </li>
+              <li>
+                <span className="font-medium text-ink">Jon Millington</span>
+                {" — "}
+                <em>Tickets, Catalogues &amp; Guidebooks: A Checklist</em>
+              </li>
+            </ul>
+            <a
+              href="/pdfs/publications/feverbooklet2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+            >
+              Download (PDF) ↗
+            </a>
+          </div>
+        </div>
       </section>
 
       <hr className="rule-gilt my-10 opacity-40" />
