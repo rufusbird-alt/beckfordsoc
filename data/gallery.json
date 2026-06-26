@@ -1,110 +1,140 @@
 [
   {
     "file": "portraits/young-beckford1.JPG",
-    "caption": "William Beckford as a Child, c.1764",
-    "description": "Portrait of the young Beckford, heir to one of the greatest fortunes in England.",
+    "caption": "William Beckford as a Child, Andrea Casali, c.1764",
+    "description": "Courtesy of Private Collection",
     "category": "portraits"
   },
   {
-    "file": "portraits/Romney-beckford2.JPG",
-    "caption": "William Beckford, c.1781",
-    "description": "Full-length portrait painted when Beckford was twenty-one, shortly before he wrote Vathek during a three-day fever.",
+    "file": "portraits/romney-beckford-national-trust.jpg",
+    "caption": "William Beckford, George Romney, 1781",
+    "description": "©National Trust Images, www.nationaltrust.org.uk",
+    "category": "portraits"
+  },
+  {
+    "file": "portraits/beckford-after-reynolds.jpg",
+    "caption": "William Thomas Beckford, engraving after painting by Reynolds",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "portraits"
   },
   {
     "file": "portraits/portrait-beckford3.jpg",
-    "caption": "William Beckford, c.1795",
-    "description": "Portrait of the author of Vathek, aged around thirty-five — traveller, collector, and builder of Fonthill Abbey.",
+    "caption": "William Beckford, John Hopner, c.1800",
+    "description": "Courtesy of Salford Museum and Art Gallery",
     "category": "portraits"
   },
   {
     "file": "portraits/older-beckford4.JPG",
-    "caption": "William Beckford on Horseback",
-    "description": "Sketch of Beckford in later life, renowned as an exceptionally fine horseman.",
+    "caption": "William Beckford on Horseback, John Doyle, 1842",
+    "description": "Private Collection",
     "category": "portraits"
   },
   {
     "file": "portraits/deathbed-beckford5.jpg",
-    "caption": "William Beckford on his Deathbed, 1844",
-    "description": "Miniature portrait in an elaborate gilt frame. Beckford died at his home on Lansdown Crescent, Bath, aged 84.",
+    "caption": "William Beckford on his Deathbed, Willes Maddox, 1844",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "portraits"
   },
   {
     "file": "fonthill abbey/fonthill-abbey1.jpg",
-    "caption": "Fonthill Abbey, West and North Fronts",
-    "description": "Engraving of the great gothic pile against a dramatic sky. Fonthill Abbey was the largest private house ever built in England.",
+    "caption": "Fonthill Abbey, West and North Fronts, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey2.JPG",
-    "caption": "Cross-Section of Fonthill Abbey Tower",
-    "description": "Architectural engraving revealing the extraordinary internal structure of Fonthill's central tower, which soared to over 270 feet.",
+    "caption": "Cross-Section of Fonthill Abbey, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey3.JPG",
-    "caption": "Plan of the Principal Story, Fonthill Abbey, 1823",
-    "description": "From John Rutter's survey. The cruciform plan shows the Grand Drawing Room, galleries, oratory, and the vast octagon beneath the tower.",
+    "caption": "Plan of the Principal Storey, Fonthill Abbey, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey4.JPG",
-    "caption": "Map of the Fonthill Domain, 1823",
-    "description": "Surveyed and planned for John Rutter's 'History and Description of Fonthill Abbey', showing the vast walled estate.",
+    "caption": "Map of the Fonthill Domain, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey5.JPG",
-    "caption": "King Edward's Gallery, Fonthill Abbey",
-    "description": "Coloured aquatint showing the richly furnished long gallery hung with paintings and tapestries.",
+    "caption": "King Edward's Gallery, Fonthill Abbey, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey6.JPG",
-    "caption": "The Great Drawing Room, Fonthill Abbey",
-    "description": "Engraving of the Great Drawing Room at Fonthill Abbey, showing Beckford's remarkable collection of paintings, objets d'art, and furnishings.",
-    "category": "fonthill"
-  },
-  {
-    "file": "fonthill abbey/fonthill-abbey7.JPG",
-    "caption": "The Vaulted Corridor, Fonthill Abbey",
-    "description": "Coloured aquatint of one of the great internal galleries, with fan-vaulted ceiling and crimson-hung walls stretching into the distance.",
+    "caption": "The Great Drawing Room, Fonthill Abbey, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey8.JPG",
-    "caption": "St Michael's Gallery, Fonthill Abbey",
-    "description": "Coloured aquatint showing the oratory with its soaring gothic windows and view over the Wiltshire landscape.",
+    "caption": "Interior of St Michael's Gallery, Fonthill Abbey, from Delineations of Fonthill and its Abbey, by John Rutter, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
+    "category": "fonthill"
+  },
+  {
+    "file": "fonthill abbey/fonthill-abbey7.JPG",
+    "caption": "South End of St Michael's Gallery, Fonthill Abbey, from Graphic and Literary Illustrations of Fonthill Abbey, by John Britton, 1823",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey9.jpg",
-    "caption": "A Fête at Fonthill Abbey, c.1822",
-    "description": "Scene in the fountain court during one of Beckford's legendary entertainments.",
+    "caption": "Fonthill Abbey: View of the Fountain Court within the Western Cloister, 1827",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
     "file": "fonthill abbey/fonthill-abbey10.JPG",
     "caption": "The Ruins of Fonthill Abbey after the Tower Collapse, 1825",
-    "description": "The great tower fell in December 1825, two years after Beckford sold the estate. The ruins were largely demolished.",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "fonthill"
   },
   {
-    "file": "bath/lansdowntower.JPG",
-    "caption": "Beckford's Tower, Bath",
-    "description": "The tower Beckford built on Lansdown Hill, Bath — his second great architectural project after Fonthill Abbey collapsed.",
+    "file": "fonthill abbey/fonthill-american-plantation.jpg",
+    "caption": "Fonthill Abbey from the American Plantation, James Storer, from A Description of Fonthill Abbey, Wiltshire, 1812",
+    "description": "Courtesy of Beckford's Tower and Museum",
+    "category": "fonthill"
+  },
+  {
+    "file": "bath/tower-exterior-1844.jpg",
+    "caption": "Beckford's Tower, Bath: Exterior View, C.J. Richardson after Willes Maddox, from Views of Lansdown Tower, by Edmund English, 1844",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "bath"
   },
   {
     "file": "bath/crimson-drawing-room-bath.JPG",
-    "caption": "The Crimson Drawing Room, Lansdown Tower, Bath",
-    "description": "Coloured illustration of the Crimson Drawing Room at Lansdown Tower, showing Beckford's richly decorated Bath retreat.",
+    "caption": "The Crimson Drawing Room, C.J. Richardson after Willes Maddox, from Views of Lansdown Tower, by Edmund English, 1844",
+    "description": "Courtesy of Beckford's Tower and Museum",
     "category": "bath"
   },
   {
-    "file": "bath/website14.jpg",
-    "caption": "The Tunnel at Lansdown Tower, Bath",
-    "description": "Drawing of the subterranean passage that connected Beckford's Lansdown gardens to the hillside above.",
+    "file": "bath/vestibule-lansdown-tower.jpg",
+    "caption": "The Vestibule, C.J. Richardson after Willes Maddox, from Views of Lansdown Tower, by Edmund English, 1844",
+    "description": "Courtesy of Beckford's Tower and Museum",
+    "category": "bath"
+  },
+  {
+    "file": "bath/belvedere-lansdown-tower.jpg",
+    "caption": "The Belvedere, C.J. Richardson after Willes Maddox, from Views of Lansdown Tower, by Edmund English, 1844",
+    "description": "Courtesy of Beckford's Tower and Museum",
+    "category": "bath"
+  },
+  {
+    "file": "bath/tower-and-tomb-2024.jpg",
+    "caption": "Beckford's Tower and Tomb, Bath, 2024",
+    "description": "Courtesy of Beckford's Tower and Museum / Casper Farrell",
+    "category": "bath"
+  },
+  {
+    "file": "bath/grotto-tunnel.jpg",
+    "caption": "The Grotto Tunnel at Beckford's Tower",
+    "description": "Courtesy of Beckford's Tower and Museum / Casper Farrell",
     "category": "bath"
   }
 ]
