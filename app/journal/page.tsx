@@ -345,9 +345,11 @@ const volumes: { vol: number; contents: string[] }[] = [
   },
 ];
 
-const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14, 22, 23, 24, 25, 26]);
+const availableVols = new Set([1, 2, 3, 4, 5, 12, 13, 14, 20, 21, 22, 23, 24, 25, 26]);
 
 const volPdfNames: Record<number, string> = {
+  20: "2014 vol 20 journal.pdf",
+  21: "2015 vol 21 journal.pdf",
   22: "2016 vol 22 13501 - Beckford Journal B McL ed.pdf",
   23: "2017 vol 23 14941 - Beckford Journal 23.pdf",
   24: "2018 vol 24 16071 - Beckford Journal.pdf",
