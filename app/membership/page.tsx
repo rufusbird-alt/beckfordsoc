@@ -136,6 +136,20 @@ export default function MembershipPage() {
                 paypal@beckfordsociety.org
               </a>
             </p>
+            <a
+              href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40beckfordsociety.org&item_name=Beckford+Society+Membership&amount=30.00&currency_code=GBP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-3 mb-4"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
+                alt="Pay now with PayPal"
+                width={122}
+                height={47}
+              />
+            </a>
             <p className="text-ink-soft text-sm">
               Please complete the membership form and email to{" "}
               <a
