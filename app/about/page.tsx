@@ -13,6 +13,7 @@ const committee = [
 ];
 
 const members = [
+  "Rufus Bird",
   "Sidney Blackmore",
   "Stephen Clarke",
   "Amy Frost",
