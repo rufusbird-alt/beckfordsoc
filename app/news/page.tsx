@@ -42,7 +42,7 @@ export default function NewsPage() {
                 edition in <em>Italy; with Sketches of Spain and Portugal</em> (1834).
               </p>
               <p className="text-ink-soft leading-relaxed mb-3 text-sm">
-                Modern editions of <em>Dreams</em> were published by Robert J. Gemmett (1971
+                Modern editions of <em>Dreams</em>{" "}were published by Robert J. Gemmett (1971
                 and 2006), with translations in French by Roger Khan (1988–9) and Dutch by
                 Gerlof Janzen (1991). Now, Daniele Niedda has translated Beckford&apos;s
                 travels into Italian, together with an introduction and 42 illustrations from
