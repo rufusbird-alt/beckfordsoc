@@ -55,7 +55,10 @@ export default function NewsPage() {
                 travel literature and eighteenth-century English aesthetics.
               </p>
               <div className="bg-parchment-dim px-5 py-3 text-xs text-ink-soft space-y-1">
-                <p><span className="font-semibold text-ink">Publisher:</span> Mucchi editore, Modena</p>
+                <p>
+                  <span className="font-semibold text-ink">Publisher:</span>{" "}
+                  <a href="https://mucchieditore.it/prodotto/sogni-visioni-e-accadimenti/" target="_blank" rel="noopener noreferrer" className="text-oxblood hover:text-oxblood-dark">Mucchi editore, Modena</a>
+                </p>
                 <p><span className="font-semibold text-ink">ISBN:</span> 9791281716674</p>
                 <p><span className="font-semibold text-ink">271 pp. &nbsp;€30</span></p>
               </div>
@@ -81,7 +84,10 @@ export default function NewsPage() {
                 and Regency society.
               </p>
               <div className="bg-parchment-dim px-5 py-3 text-xs text-ink-soft space-y-1">
-                <p><span className="font-semibold text-ink">Publisher:</span> Fonthill</p>
+                <p>
+                  <span className="font-semibold text-ink">Publisher:</span>{" "}
+                  <a href="https://www.pen-and-sword.co.uk/the-social-life-of-a-georgian-novelist/p/61515?utm_source=fonthill.media&utm_medium=subsite" target="_blank" rel="noopener noreferrer" className="text-oxblood hover:text-oxblood-dark">Fonthill</a>
+                </p>
                 <p><span className="font-semibold text-ink">ISBN:</span> 978-1-03615-635-0</p>
                 <p><span className="font-semibold text-ink">Hardback. 240 pp. &nbsp;£25</span></p>
               </div>
