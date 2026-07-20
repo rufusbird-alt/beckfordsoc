@@ -88,16 +88,6 @@ export default function NewsPage() {
             </div>
           </div>
 
-          <div className="mt-6">
-            <a
-              href="/news/new books.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
-            >
-              Download notices (PDF) ↗
-            </a>
-          </div>
         </article>
 
         <article className="border-l-2 border-[color:var(--color-gilt)] pl-6">
