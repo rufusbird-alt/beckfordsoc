@@ -1,9 +1,15 @@
 
+import { PCLOUD_JOURNAL_FOLDER } from "@/lib/pcloudLinks";
+
 export const metadata = {
   title: "The Beckford Journal",
   description:
     "Browse all issues of The Beckford Journal, the Society's annual peer-reviewed publication.",
 };
+
+function journalPdfLink() {
+  return PCLOUD_JOURNAL_FOLDER;
+}
 
 const volumes: { vol: number; contents: string[] }[] = [
   {
@@ -431,7 +437,7 @@ export default function JournalPage() {
               {available && (
                 <div className="px-6 py-4">
                   <a
-                    href={`/pdfs/journal/${pdfFilename(vol)}`}
+                    href={journalPdfLink()}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"

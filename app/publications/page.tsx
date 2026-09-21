@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { PCLOUD_FONTHILL_FEVER } from "@/lib/pcloudLinks";
 
 export const metadata = {
   title: "Society Publications",
@@ -258,7 +259,7 @@ export default function PublicationsPage() {
               </li>
             </ul>
             <a
-              href="/pdfs/publications/feverbooklet2.pdf"
+              href={PCLOUD_FONTHILL_FEVER}
               target="_blank"
               rel="noopener noreferrer"
               className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
