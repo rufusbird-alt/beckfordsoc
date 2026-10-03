@@ -17,6 +17,53 @@ export default function NewsPage() {
       <div className="space-y-10">
         <article className="border-l-2 border-[color:var(--color-gilt)] pl-6">
           <p className="eyebrow text-xs text-fog mb-1">
+            Annual Lecture &nbsp;·&nbsp; 27 November 2026
+          </p>
+          <h2 className="heading-display text-xl text-ink mb-3">
+            The 2026 Beckford Lecture
+          </h2>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            Dr Timothy Schroder will speak on “William Beckford, patron and
+            collector of goldsmiths’ work”. Dr Schroder is a historian of
+            silver and goldsmiths’ work, a Fellow of the Society of Antiquaries
+            and former President of the Silver Society. He has held curatorial
+            roles at the Los Angeles County Museum of Art, the Gilbert
+            Collection at Somerset House and the Victoria and Albert Museum.
+          </p>
+          <div className="bg-parchment-dim px-5 py-4 text-sm text-ink-soft space-y-2 mb-4">
+            <p>
+              <span className="font-semibold text-ink">Time:</span> 11.30 am;
+              coffee will be served from 11.00 am
+            </p>
+            <p>
+              <span className="font-semibold text-ink">Venue:</span> The
+              Travellers Club, 106 Pall Mall, London SW1
+            </p>
+            <p>
+              <span className="font-semibold text-ink">Lunch:</span> Optional
+              lunch after the lecture, £90 including wine
+            </p>
+            <p>
+              <span className="font-semibold text-ink">Booking deadline:</span>{" "}
+              Monday 16 November 2026
+            </p>
+          </div>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            Members are welcome to attend the lecture without staying for
+            lunch. Please return the booking form by Monday 16 November.
+          </p>
+          <a
+            href="/news/beckford-lecture-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+          >
+            Full announcement and booking form (PDF) ↗
+          </a>
+        </article>
+
+        <article className="border-l-2 border-[color:var(--color-gilt)] pl-6">
+          <p className="eyebrow text-xs text-fog mb-1">
             New Publications &nbsp;·&nbsp; 2026
           </p>
           <h2 className="heading-display text-xl text-ink mb-4">
