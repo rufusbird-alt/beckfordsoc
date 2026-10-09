@@ -19,6 +19,7 @@ const nextConfig = {
       { source: "/membership/", destination: "/membership", permanent: true },
       { source: "/committee/", destination: "/about", permanent: true },
       { source: "/annual-lectures/", destination: "/publications", permanent: true },
+      { source: "/collections/brodick-castle", destination: "/collections", permanent: true },
       {
         source: "/international-society-of-eighteenth-century-studies/",
         destination: "/news",
