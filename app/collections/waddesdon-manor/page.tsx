@@ -26,11 +26,24 @@ export default function WaddesdonManorPage() {
         Hamilton Palace sale of 1882.
       </p>
 
-      <div className="bg-parchment-dim border border-dashed border-fog/40 px-6 py-8 text-center">
-        <p className="text-fog text-sm italic">
-          A record of Beckford objects in this collection is in preparation.
+      <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">
+        <p className="text-sm text-ink-soft mb-3">
+          View Waddesdon&apos;s record of works connected with William Beckford:
         </p>
+        <a
+          href="https://collection.waddesdon.org.uk/persons/2897/william-beckford-british-b1759-d1844"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+        >
+          Waddesdon — William Beckford ↗
+        </a>
       </div>
+
+      <p className="text-sm text-fog italic">
+        A detailed record of individual works, with images and commentary, will
+        be added to this page in due course.
+      </p>
 
       <div className="mt-10">
         <Link

@@ -2,39 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "British Museum — Beckford's Collections",
-  description:
-    "Objects formerly in William Beckford's collection now held at the British Museum, London.",
+  title: "Beckford in the collections of the National Trust — Beckford's Collections",
 };
 
-export default function BritishMuseumPage() {
+export default function NationalTrustPage() {
   return (
     <div className="container-prose py-16">
       <p className="eyebrow mb-2">
         <Link href="/collections" className="text-fog hover:text-oxblood no-underline transition-colors">
           Beckford&apos;s Collections
         </Link>
-        {" "}/ British Museum
+        {" "}/ National Trust
       </p>
-      <h1 className="heading-display text-4xl mb-4">British Museum</h1>
+      <h1 className="heading-display text-4xl mb-4">Beckford in the collections of the National Trust</h1>
       <hr className="rule-gilt my-6" />
 
-      <p className="text-ink-soft leading-relaxed mb-6">
-        The British Museum, London holds objects formerly in William
-        Beckford&apos;s collection.
-      </p>
+      {/* TODO: copy — introductory text to be supplied */}
 
       <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">
         <p className="text-sm text-ink-soft mb-3">
-          View the British Museum&apos;s record of works connected with William Beckford:
+          Search National Trust Collections for works connected with William Beckford:
         </p>
         <a
-          href="https://www.britishmuseum.org/collection/term/BIOG18931"
+          href="https://www.nationaltrustcollections.org.uk/results?SearchTerms=%22william+beckford%22&Sort=collection"
           target="_blank"
           rel="noopener noreferrer"
           className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
         >
-          British Museum — William Beckford ↗
+          National Trust Collections — William Beckford ↗
         </a>
       </div>
 

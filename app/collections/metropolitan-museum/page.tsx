@@ -27,11 +27,24 @@ export default function MetropolitanMuseumPage() {
         arts, and other objects formerly in William Beckford&apos;s collection.
       </p>
 
-      <div className="bg-parchment-dim border border-dashed border-fog/40 px-6 py-8 text-center">
-        <p className="text-fog text-sm italic">
-          A record of Beckford objects in this collection is in preparation.
+      <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">
+        <p className="text-sm text-ink-soft mb-3">
+          Search the Metropolitan Museum&apos;s collection for works connected with William Beckford:
         </p>
+        <a
+          href="https://www.metmuseum.org/search-results?q=William+Beckford"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+        >
+          The Met — William Beckford ↗
+        </a>
       </div>
+
+      <p className="text-sm text-fog italic">
+        A detailed record of individual works, with images and commentary, will
+        be added to this page in due course.
+      </p>
 
       <div className="mt-10">
         <Link

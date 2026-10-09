@@ -18,31 +18,45 @@ const institutions = [
     name: "Victoria & Albert Museum",
     location: "London",
     href: "/collections/victoria-albert-museum",
-    status: "forthcoming",
+    status: "available",
   },
   {
     name: "British Museum",
     location: "London",
     href: "/collections/british-museum",
-    status: "forthcoming",
+    status: "available",
   },
   {
     name: "Metropolitan Museum of Art",
     location: "New York",
     href: "/collections/metropolitan-museum",
-    status: "forthcoming",
+    status: "available",
   },
   {
     name: "Waddesdon Manor",
     location: "Buckinghamshire",
     href: "/collections/waddesdon-manor",
-    status: "forthcoming",
+    status: "available",
   },
   {
-    name: "Brodick Castle",
-    location: "Isle of Arran",
-    href: "/collections/brodick-castle",
-    status: "forthcoming",
+    name: "William Beckford in UK Public Collections",
+    href: "/collections/art-uk",
+    status: "available",
+  },
+  {
+    name: "Beckford in the collections of the National Trust for Scotland",
+    href: "/collections/national-trust-for-scotland",
+    status: "available",
+  },
+  {
+    name: "Beckford in other US Collections",
+    href: "/collections/other-us-collections",
+    status: "available",
+  },
+  {
+    name: "Beckford in the collections of the National Trust",
+    href: "/collections/national-trust",
+    status: "available",
   },
 ];
 
@@ -72,7 +86,9 @@ export default function CollectionsPage() {
                 <p className="font-[family-name:var(--font-display)] text-lg text-ink group-hover:text-oxblood transition-colors">
                   {inst.name}
                 </p>
-                <p className="text-xs text-fog mt-0.5">{inst.location}</p>
+                {inst.location && (
+                  <p className="text-xs text-fog mt-0.5">{inst.location}</p>
+                )}
               </div>
               {inst.status === "forthcoming" && (
                 <span className="eyebrow text-fog text-xs shrink-0 ml-4 mt-0.5">
