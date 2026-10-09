@@ -21,7 +21,7 @@ export default function BritishMuseumPage() {
 
       <p className="text-ink-soft leading-relaxed mb-6">
         The British Museum, London holds objects formerly in William
-        Beckford&apos;s collection.
+        Beckford&apos;s collection as well as numerous items related to him.
       </p>
 
       <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">

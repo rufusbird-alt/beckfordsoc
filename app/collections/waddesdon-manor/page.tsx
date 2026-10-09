@@ -21,9 +21,10 @@ export default function WaddesdonManorPage() {
       <hr className="rule-gilt my-6" />
 
       <p className="text-ink-soft leading-relaxed mb-6">
-        Waddesdon Manor, Buckinghamshire holds objects formerly in William
-        Beckford&apos;s collection, including works that passed through the
-        Hamilton Palace sale of 1882.
+        Ferdinand de Rothschild&apos;s collection at Waddesdon Manor,
+        Buckinghamshire holds objects formerly in William Beckford&apos;s
+        collection, including works that passed through the Hamilton Palace
+        sale of 1882.
       </p>
 
       <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">

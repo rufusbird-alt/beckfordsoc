@@ -17,7 +17,10 @@ export default function ArtUKPage() {
       <h1 className="heading-display text-4xl mb-4">William Beckford in UK Public Collections</h1>
       <hr className="rule-gilt my-6" />
 
-      {/* TODO: copy — introductory text to be supplied */}
+      <p className="text-ink-soft leading-relaxed mb-6">
+        Searching for William Beckford on Art UK&apos;s website returns a number
+        of works associated with and formerly owned by Beckford.
+      </p>
 
       <div className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">
         <p className="text-sm text-ink-soft mb-3">

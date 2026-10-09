@@ -117,7 +117,12 @@ export default function OtherUSCollectionsPage() {
       <h1 className="heading-display text-4xl mb-4">Beckford in other US Collections</h1>
       <hr className="rule-gilt my-6" />
 
-      {/* TODO: copy — introductory text to be supplied */}
+      <p className="text-ink-soft leading-relaxed mb-6">
+        Many US museums own works from Beckford&apos;s collections. Some have
+        made their collections available online and a selection are added
+        below. This section will grow as more collections are identified and
+        their collections made accessible online.
+      </p>
 
       {institutions.map(({ name, credit, items }) => (
         <section key={name} className="bg-parchment-dim border-l-4 border-gilt px-6 py-5 mb-10">
