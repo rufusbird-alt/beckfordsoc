@@ -17,6 +17,79 @@ export default function NewsPage() {
       <div className="space-y-10">
         <article className="border-l-2 border-[color:var(--color-gilt)] pl-6">
           <p className="eyebrow text-xs text-fog mb-1">
+            Call for Papers &nbsp;·&nbsp; 17–18 June 2027
+          </p>
+          <h2 className="heading-display text-xl text-ink mb-3">
+            Gothic 1730–1850: Traditions, Transmissions, Translations
+          </h2>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            Hosted in collaboration with the Lewis Walpole Library, Yale
+            University, and the Kulturstiftung Dessau-Wörlitz, this
+            international conference explores the Gothic Revival across
+            literature, art, architecture and material culture, with particular
+            attention to collecting, antiquarianism and the international
+            movement of objects, texts and ideas.
+          </p>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            Confirmed plenary speakers include Martin Bressani (McGill
+            University), Deborah Russell (University of York), Roger White
+            (independent architectural historian), and James Uden, Professor of
+            Classics at Yale University.
+          </p>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            We welcome proposals for twenty-minute papers and panels from
+            scholars at all career stages. Early-career researchers and
+            scholars working outside the UK are particularly encouraged to
+            apply.
+          </p>
+          <div className="bg-parchment-dim px-5 py-4 text-sm text-ink-soft space-y-2 mb-4">
+            <p>
+              <span className="font-semibold text-ink">Dates:</span> 17–18
+              June 2027
+            </p>
+            <p>
+              <span className="font-semibold text-ink">Venue:</span> St
+              Mary’s University and Strawberry Hill House, Twickenham
+            </p>
+            <p>
+              <span className="font-semibold text-ink">Submission deadline:</span>{" "}
+              4th January 2027
+            </p>
+          </div>
+          <p className="text-ink-soft leading-relaxed mb-4">
+            Please send an abstract of up to 300 words and a biographical note
+            of up to 150 words to{" "}
+            <a
+              href="mailto:gothic2027@gmail.com"
+              className="text-oxblood hover:text-oxblood-dark"
+            >
+              gothic2027@gmail.com
+            </a>
+            . Panel proposals should include a panel overview and individual
+            paper abstracts.
+          </p>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <a
+              href="https://www.strawberryhillhouse.org.uk/gothic-conference/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+            >
+              Conference website ↗
+            </a>
+            <a
+              href="https://www.strawberryhillhouse.org.uk/wp-content/uploads/2026/10/Gothic-conference-SHH-SMU-CFP.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"
+            >
+              Call for papers (PDF) ↗
+            </a>
+          </div>
+        </article>
+
+        <article className="border-l-2 border-[color:var(--color-gilt)] pl-6">
+          <p className="eyebrow text-xs text-fog mb-1">
             Annual Lecture &nbsp;·&nbsp; 27 November 2026
           </p>
           <h2 className="heading-display text-xl text-ink mb-3">
