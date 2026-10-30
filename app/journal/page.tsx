@@ -1,15 +1,11 @@
 
-import { PCLOUD_JOURNAL_FOLDER } from "@/lib/pcloudLinks";
+import { journalPdfUrl } from "@/lib/pdfLinks";
 
 export const metadata = {
   title: "The Beckford Journal",
   description:
     "Browse all issues of The Beckford Journal, the Society's annual peer-reviewed publication.",
 };
-
-function journalPdfLink() {
-  return PCLOUD_JOURNAL_FOLDER;
-}
 
 const volumes: { vol: number; contents: string[] }[] = [
   {
@@ -349,35 +345,21 @@ const volumes: { vol: number; contents: string[] }[] = [
       "ERIC RATCLIFF: A Succession of Unpremeditated Stages?",
     ],
   },
+  {
+    vol: 27,
+    contents: [
+      "CHARLIE COURTENAY, EARL OF DEVON: The newly-photographed portrait of William Courtenay",
+      "BET MCLEOD: A Beckford Objet de Vertu",
+      "PATRYK SOBIERAJ: The Ring, the Eye, and the Bones of the Damned: or, 'Tolkien's Soup'",
+      "MALCOLM JACK: Maria Filomena Mónica, Olhar do Outro. Estrangeiros em Portugal: do Século XVIII ao Século XX. A Review",
+      "BET MCLEOD: A review of some Beckford Cabinet Ceramics at Brodick Castle",
+      "ERIC RATCLIFF: That Safe Resting Place: A contemplation of the tomb of William Beckford",
+      "BET MCLEOD and PIPPA SHIRLEY: A Picture is worth a thousand words",
+    ],
+  },
 ];
 
-const availableVols = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 26]);
-
-const volPdfNames: Record<number, string> = {
-  1: "BeckfordJournal_Vol1.pdf",
-  2: "BeckfordJournal_Vol2.pdf",
-  3: "BeckfordJournal_Vol3.pdf",
-  4: "BeckfordJournal_Vol4.pdf",
-  6: "BeckfordJournal_Vol6.pdf",
-  7: "BeckfordJournal_Vol7.pdf",
-  8: "BeckfordJournal_Vol8.pdf",
-  9: "BeckfordJournal_Vol9.pdf",
-  10: "BeckfordJournal_Vol10.pdf",
-  11: "BeckfordJournal_Vol11.pdf",
-  14: "BeckfordJournal_Vol14.pdf",
-  15: "BeckfordJournal_Vol15.pdf",
-  20: "2014 vol 20 journal.pdf",
-  21: "2015 vol 21 journal.pdf",
-  22: "2016 vol 22 13501 - Beckford Journal B McL ed.pdf",
-  23: "2017 vol 23 14941 - Beckford Journal 23.pdf",
-  24: "2018 vol 24 16071 - Beckford Journal.pdf",
-  25: "2019 vol 25 Beckford Journal.pdf",
-  26: "2020 vol 26 18770 Beckford Journal.pdf",
-};
-
-function pdfFilename(vol: number) {
-  return volPdfNames[vol] ?? `beckfordjournalvol${vol}.pdf`;
-}
+const availableVols = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 26, 27]);
 
 export default function JournalPage() {
   const sorted = [...volumes].sort((a, b) => b.vol - a.vol);
@@ -437,7 +419,7 @@ export default function JournalPage() {
               {available && (
                 <div className="px-6 py-4">
                   <a
-                    href={journalPdfLink()}
+                    href={journalPdfUrl(vol)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"

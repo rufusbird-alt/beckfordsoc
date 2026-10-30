@@ -1,4 +1,4 @@
-import { PCLOUD_NEWSLETTER_FOLDER } from "@/lib/pcloudLinks";
+import { newsletterPdfUrl } from "@/lib/pdfLinks";
 
 export const metadata = {
   title: "Newsletters",
@@ -6,49 +6,8 @@ export const metadata = {
     "Browse and download all issues of the Beckford Society Newsletter.",
 };
 
-const newsletters = [
-  "Beckford_newsletter_59.pdf",
-  "beckford_newsletter_32.pdf",
-  "beckford_newsletter_33.pdf",
-  "beckford_newsletter_34.pdf",
-  "beckford_newsletter_35.pdf",
-  "beckford_newsletter_36.pdf",
-  "beckford_newsletter_37.pdf",
-  "beckford_newsletter_38.pdf",
-  "beckford_newsletter_39.pdf",
-  "beckford_newsletter_40.pdf",
-  "beckford_newsletter_41.pdf",
-  "beckford_newsletter_42.pdf",
-  "beckford_newsletter_43.pdf",
-  "beckford_newsletter_44.pdf",
-  "beckford_newsletter_45.pdf",
-  "beckford_newsletter_46.pdf",
-  "beckford_newsletter_47.pdf",
-  "beckford_newsletter_48.pdf",
-  "beckford_newsletter_49.pdf",
-  "beckford_newsletter_50.pdf",
-  "beckford_newsletter_51.pdf",
-  "beckford_newsletter_52.pdf",
-  "beckford_newsletter_53.pdf",
-  "beckford_newsletter_54.pdf",
-  "beckford_newsletter_55.pdf",
-  "beckford_newsletter_56.pdf",
-  "beckford_newsletter_57.pdf",
-  "beckford_newsletter_58.pdf",
-  "beckford_newsletter_60.pdf",
-  "beckford_newsletter_61.pdf",
-  "beckford_newsletter_62.pdf",
-  "beckford_newsletter_63.pdf",
-  "beckford_newsletter_64.pdf",
-].map((file) => {
-  const match = file.match(/(\d+)/);
-  const issue = match ? parseInt(match[1], 10) : 0;
-  return { issue, file };
-}).sort((a, b) => b.issue - a.issue);
-
-function newsletterPdfLink() {
-  return PCLOUD_NEWSLETTER_FOLDER;
-}
+// Issues available as PDFs, newest first.
+const newsletters = Array.from({ length: 65 - 32 + 1 }, (_, i) => 65 - i);
 
 export default function NewslettersPage() {
 
@@ -66,10 +25,10 @@ export default function NewslettersPage() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-        {newsletters.map(({ issue, file }) => (
+        {newsletters.map((issue) => (
           <a
-            key={file}
-            href={newsletterPdfLink()}
+            key={issue}
+            href={newsletterPdfUrl(issue)}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between border border-parchment-dim hover:border-gilt bg-parchment hover:bg-parchment-dim transition-colors px-5 py-4 no-underline"

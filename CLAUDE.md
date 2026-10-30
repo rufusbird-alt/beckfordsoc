@@ -38,7 +38,7 @@ Most page text is written directly into each page's `app/<route>/page.tsx`, ofte
 
 Other content files:
 
-- **PDFs**: Journal volumes, newsletters, the membership form and *Fonthill Fever* are hosted on pCloud. Their share URLs are in `lib/pcloudLinks.ts`. Each Journal and Newsletter download button links to the pCloud **folder**, not to an individual PDF. Small one-off files, such as news-item PDFs and images, go in `public/news/`.
+- **PDFs**: Journal volumes and newsletters are served from the Cloudflare R2 bucket `beckford-pdfs` at `https://files.beckfordsociety.org` (`journal/beckford-journal-vol-NN.pdf`, `newsletters/beckford-newsletter-N.pdf`), never from Vercel, to keep large downloads and crawler traffic off Vercel's bandwidth. Links are built in `lib/pdfLinks.ts`. Upload compressed copies with `npx wrangler r2 object put beckford-pdfs/<path> --file <file> --content-type application/pdf --remote` (run wrangler outside the home folder). The membership form and *Fonthill Fever* are still on pCloud (`lib/pcloudLinks.ts`). Small one-off files, such as news-item PDFs and images, go in `public/news/`.
 - **Gallery**: `data/gallery.json` holds `{ file, caption, description, category, creditUrl? }`. `file` is relative to `public/images/gallery/`, and some folder names contain spaces (`fonthill abbey/`). The categories are `portraits`, `fonthill` and `bath`. Gallery captions are edited here.
 - **Navigation**: the header and footer each have their own hard-coded link list, in `components/Header.tsx` and `components/Footer.tsx`. `data/nav.ts` and `data/links.json` are not used. When adding a page, update both components and `app/sitemap.ts`.
 
