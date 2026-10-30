@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import MembershipForm from "@/components/MembershipForm";
-import { PCLOUD_MEMBERSHIP_FORM } from "@/lib/pcloudLinks";
+import { MEMBERSHIP_FORM_PDF } from "@/lib/pdfLinks";
 
 export const metadata: Metadata = {
   title: "Join the Society",
@@ -39,7 +39,7 @@ export default function MembershipPage() {
         </p>
         <div className="flex flex-wrap gap-6">
           <a
-            href={PCLOUD_MEMBERSHIP_FORM}
+            href={MEMBERSHIP_FORM_PDF}
             target="_blank"
             rel="noopener noreferrer"
             className="eyebrow text-oxblood hover:text-oxblood-dark text-xs no-underline transition-colors"

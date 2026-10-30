@@ -9,3 +9,6 @@ export function journalPdfUrl(vol: number) {
 export function newsletterPdfUrl(issue: number) {
   return `${PDF_BASE}/newsletters/beckford-newsletter-${issue}.pdf`;
 }
+
+export const FONTHILL_FEVER_PDF = `${PDF_BASE}/publications/fonthill-fever-1822-1823.pdf`;
+export const MEMBERSHIP_FORM_PDF = `${PDF_BASE}/forms/beckford-society-membership-form.pdf`;
