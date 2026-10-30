@@ -13,6 +13,15 @@
     "category": "portraits"
   },
   {
+    "file": "portraits/reynolds-beckford-npg.jpg",
+    "caption": "William (Thomas) Beckford by Sir Joshua Reynolds, oil on canvas, 1782",
+    "description": "© National Portrait Gallery, London",
+    "creditUrl": "https://www.npg.org.uk/collections/search/portrait/mw07093",
+    "licence": "Licensed under CC BY-NC-ND 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "category": "portraits"
+  },
+  {
     "file": "portraits/beckford-after-reynolds.jpg",
     "caption": "William Thomas Beckford, engraving after painting by Reynolds",
     "description": "Courtesy of Beckford's Tower and Museum",

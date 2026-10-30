@@ -7,6 +7,8 @@ type GalleryItem = {
   caption: string;
   description: string;
   creditUrl?: string;
+  licence?: string;
+  licenceUrl?: string;
   category: string;
 };
 
@@ -72,6 +74,19 @@ export default function GalleryClient({ items }: { items: GalleryItem[] }) {
                         item.description
                       )}
                     </p>
+                    {item.licence && (
+                      <p className="text-xs text-fog mt-0.5 leading-snug">
+                        <a
+                          href={item.licenceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer license"
+                          onClick={(e) => e.stopPropagation()}
+                          className="underline underline-offset-2 decoration-fog/50 hover:decoration-fog"
+                        >
+                          {item.licence}
+                        </a>
+                      </p>
+                    )}
                   </figcaption>
                 </figure>
               ))}
@@ -121,6 +136,19 @@ export default function GalleryClient({ items }: { items: GalleryItem[] }) {
                   lightbox.description
                 )}
               </p>
+              {lightbox.licence && (
+                <p className="text-fog/80 text-sm mt-1 leading-relaxed">
+                  <a
+                    href={lightbox.licenceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer license"
+                    onClick={(e) => e.stopPropagation()}
+                    className="underline underline-offset-2 decoration-fog/50 hover:decoration-fog hover:text-fog"
+                  >
+                    {lightbox.licence}
+                  </a>
+                </p>
+              )}
             </div>
           </div>
         </div>
